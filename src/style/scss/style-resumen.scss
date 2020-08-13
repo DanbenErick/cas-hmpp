@@ -1,0 +1,65 @@
+@import "components/basic";
+@import "components/fonts";
+$point: 768px;
+body {
+    width: 100%;
+    // height: 100vh;
+    // max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        display: block;
+        font-weight: bold;
+        padding: 10px 0;
+        font-size: 30px;
+        text-align: center;
+        @media (max-width: $point) {
+            font-size: 26px;
+        }
+    }
+}
+section {
+    // box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    width: 70%;
+    @media (max-width: $point) {
+        width: 90%;
+    }
+}
+
+.group {
+    padding: 15px 0;
+    b {
+        color: $color-primary;
+        font-size: 20px;
+        &::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 2px;
+            background: $color-primary;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: $point) {
+            font-size: 18px;
+        }
+    }
+    p {
+        font-size: 18px;
+        padding-left: 20px;
+        @media (max-width: $point) {
+            font-size: 16px;
+        }
+    }
+}
+.container_volver {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+a {
+    @include button;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+[16-Mar-2020 00:49:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 00:50:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 00:51:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 01:30:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 01:31:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 01:33:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 01:35:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 01:36:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(../../../src/config.php): failed to open stream: No such file or directory in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 3
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(): Failed opening '../../../src/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 3
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(../../src/config.php): failed to open stream: No such file or directory in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 4
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(): Failed opening '../../src/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 4
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(../src/config.php): failed to open stream: No such file or directory in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 5
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(): Failed opening '../src/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 5
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(../../src/config.php): failed to open stream: No such file or directory in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 648
+[16-Mar-2020 06:38:21 UTC] PHP Warning:  include_once(): Failed opening '../../src/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/public_html/php/functions/functions.php on line 648
+[16-Mar-2020 01:49:01 America/Lima] PHP Notice:  Undefined offset: 0 in /home/wi14ca6z6ujb/public_html/cas.munipasco.gob.pe/script.php on line 9

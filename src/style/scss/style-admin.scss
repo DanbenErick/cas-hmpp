@@ -1,0 +1,60 @@
+@import "components/basic";
+@import "components/fonts";
+@import "components/nav";
+
+header {
+    padding: 40px;
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+section {
+    padding: 0 200px;
+    // background: black;
+    @media (max-width: 768px) {
+        padding: 0 20px;
+    }
+}
+.contenedor_table {
+    @media (max-width: 768px) {
+        overflow-x: scroll;
+    }
+}
+.grupo_input {
+    @include grupoInput;
+    &:last-child {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+    }
+}
+input, select {
+    @include input;
+}
+label {
+    @include paddingLabel;
+}
+button {
+    @include button;
+}
+table {
+    @include table;
+}
+option {
+    padding: 10px 0;
+    &:hover {
+        background: $color-primary;
+    }
+}
+.icon-pencil {
+    font-size: 10px;
+    background: #fbc531;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    &:hover {
+        background: darken(#fbc531, 10);
+    }
+}

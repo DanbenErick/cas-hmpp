@@ -1,0 +1,6 @@
+RewriteEngine On
+
+order deny,allow
+deny from all
+allow from 190.237.101.118
+allow from 190.239.73.32

@@ -1,0 +1,58 @@
+@import "components/basic";
+@import "components/fonts";
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+section {
+    width: 100%;
+    @include centerElement;
+    .contenedor_form{
+        width: 70%;
+    }
+}
+.grupo_input {
+    @include grupoInput;
+    label {
+        @include paddingLabel;
+    }
+    input, select {
+        @include input;
+    }
+    button {
+        @include button;
+    }
+    &:last-child {
+        @include centerElement;
+    }
+}
+#upload-progress {
+    visibility: hidden;
+}
+
+#upload-progress.visible {
+    visibility: visible;
+}
+.header_postular {
+    padding-bottom: 20px;
+    h2 {
+        font-size: 20px;
+        background: $color-primary;
+        text-align: center;
+        color: $white;
+        padding: 15px 20px;
+        line-height: 32px;
+        @media (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
+}
+.alert {
+    background: $color-primary;
+    color: $white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,52 @@
+main.panel {
+    section.crear-documento, section.crear-plaza {
+        padding: 40px 80px;
+        h1 {
+            font-weight: normal;
+            text-align: center;
+            font-size: 30px;
+            padding: 40px 0;
+        }
+        .contenedor-form {
+            .form {
+                .grupo-input {
+                    @include grupoInput;
+                    label {
+                        @include paddingLabel;
+                    }
+                    .file-label {
+                        p {
+                            @include button;
+                            display: inline-block;
+                        }
+                        span {
+                            padding-left: 10px;
+                        }
+                    }
+                    input {
+                        @include input;
+                    }
+                    input[type="file"] {
+                        display: none;
+                    }
+                    button {
+                        @include button;
+                    }
+                    &:last-child {
+                        @include centerElement;
+                    }
+                }
+            }
+        }
+        .form-buscador-documentos {
+            padding-bottom: 40px;
+        }
+        .contenedor-table {
+            width: 100%;
+            overflow-x: auto;
+            .tabla-documentos {
+                @include table;
+            }
+        }
+    }
+}

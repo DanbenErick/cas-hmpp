@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": "cas_sistema",
+            "dialect": "MySQL",
+            "name": "CAS Sistema",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}

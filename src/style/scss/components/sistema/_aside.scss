@@ -1,0 +1,32 @@
+main.panel {
+
+    aside {
+        background: $color-secondary;
+        ul {
+            position: sticky;
+            top: 0;
+            list-style: none;
+            padding-top: 40px;
+            a {
+                text-decoration: none;
+                color: $white;
+                font-weight: lighter;
+                display: block;
+                padding: 10px 20px;
+                font-size: 14px;
+                &:hover{
+                    background: $color-tercero;
+                }
+                &:focus{
+                    background: $color-tercero;
+                }
+                &.convocatoria, &.documento, &.plaza, &.responsable {
+                    background: $color_tercero;
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+}

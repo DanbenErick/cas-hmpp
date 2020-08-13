@@ -1,0 +1,51 @@
+@import "components/basic";
+@import "components/fonts";
+@import "components/nav";
+@import "components/supervisor/panel";
+@import "components/supervisor/modal";
+
+
+.inf {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    @media (max-width: 768px) {
+        font-size: 16px;
+        span {
+            display: block;
+            font-weight: bold;
+        }
+    }
+}
+.grupo {
+    @include grupoInput;
+    padding: 10px 0;
+}
+select  {
+    @include input;
+}
+.list_accepted {
+    display:flex;
+    justify-content: center;
+    padding: 15px 0;
+    a {
+        @include button;
+        text-decoration: none !important;
+        @media (max-width: 768px) {
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+    }
+}
+
+input {
+    @include input;
+}
+.grupo button {
+    @include button;
+}
+.grupo_button {
+    display: flex;
+    justify-content: center;
+}

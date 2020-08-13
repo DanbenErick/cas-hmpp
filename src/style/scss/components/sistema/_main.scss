@@ -1,0 +1,53 @@
+main.panel {
+    display: grid;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-columns: 2fr 8fr;
+    // justify-content: center;
+    .crear-plaz, .crear-document {
+        .contenedor-table {
+            width: 100%;
+            max-width: 80%;
+            overflow-x: scroll;
+            td {
+                // padding: 10px 100px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 40px;
+        aside {
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+        }
+        aside ul{
+            padding-top: 0px !important;
+        }
+        section {
+            padding: 0px 30px !important;
+        }
+        .contenedor-table {
+            overflow-x: scroll !important;
+        }
+    }
+}
+
+//Creacion de aside del dashboard Sistema
+@import "aside";
+
+
+//Section de Crear Convocatoria
+@import "section-crear-convocatoria";
+
+//Section de Crear Documento
+
+@import "section-crear-documento";
+
+
+.convocatoria, .documento, .plaza, .responsable {
+	background: $color_tercero;
+}

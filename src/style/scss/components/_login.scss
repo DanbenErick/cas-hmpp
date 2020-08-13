@@ -1,0 +1,65 @@
+section.section-ingreso-sistema {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .container {
+        width: 50%;
+        .contenedor-form {
+            background: white;
+            width: 100%;
+            h1 {
+                display: block;
+                text-align: center;
+                padding: 40px 0;
+                font-size: 24px;
+            }
+            form {
+                width: 100%;
+                .grupo-input {
+                    padding: 10px 60px;
+                    input {
+                        @include input;
+                    }
+                    button {
+                        background: $color-primary;
+                        border: none;
+                        color: white;
+                        border-radius: 0px;
+                        padding:10px 80px;
+                        &:hover {
+                            background: darken($color-primary, 10);
+                        }
+                        &:focus {
+                            outline: none;
+                            background: darken($color-primary, 10);
+                        }
+                    }
+                    &:nth-child(3) {
+                        padding: 20px 0;
+                    }
+                    &:last-child {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            padding: 0;
+            width: 90%;
+            h1 {
+                padding: 20px 0 !important;
+                font-size: 20px !important;
+            }
+            .grupo-input {
+                padding: 10px 25px !important;
+            }
+        }
+    }
+}

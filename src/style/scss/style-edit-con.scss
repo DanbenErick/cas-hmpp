@@ -1,0 +1,71 @@
+@import "components/basic";
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+main {
+    width: 100%;
+    section {
+        margin: auto;
+        width: 70%;
+        @media (max-width: 768px) {
+            width: 80%;
+        }
+    }
+}
+
+main {
+    section {
+        padding: 40px 80px;
+        .contenedor {
+            h1{
+                text-align: center;
+                font-weight: normal;
+                font-size: 30px;
+                padding-top: 80px;
+                padding-bottom: 40px;
+            }
+        }
+        .contenedor-form {
+            .form {
+                .separador {
+                    width: 100%;
+                    padding: 40px 0;
+                    h2 {
+                        font-weight: bold;
+                        color: $color-primary;
+                        &::after {
+                            content: '';
+                            display: block;
+                            width: 10%;
+                            height: 2px;
+                            background: $color-primary;
+                            margin-left: 40px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .grupo-input {
+                    @include grupoInput;
+                    label {
+                        @include paddingLabel;
+                    }
+                    input {
+                        @include input;
+                    }
+                    button {
+                        @include button;
+                    }
+                    &:last-child {
+                        @include centerElement;
+                    }
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            padding: 40px 0px;
+        }
+    }
+}

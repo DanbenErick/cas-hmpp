@@ -1,0 +1,5 @@
+prepros.config
+node_modules/
+public_html/files/*
+vendor
+vendor/*

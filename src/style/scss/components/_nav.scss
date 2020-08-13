@@ -1,0 +1,50 @@
+nav {
+    background: $color-primary;
+    width: 100%;
+    max-width: 100%;
+    > ul {
+        padding:0;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        > li{
+            color: $white;
+            display: block;
+            padding: 10px 40px;
+            position: relative;
+            background-color: $color-primary;
+            font-weight: lighter;
+            &:hover > ul, a {
+                display: block;
+            }
+            > ul {
+                display: none;
+                list-style: none;
+                position: absolute;
+                z-index: 200000;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                a {
+                    background: $color-primary;
+                    text-decoration: none;
+                    color: $white;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px 0;
+                    &:hover {
+                        background: lighten($color-primary, 10);
+                    }
+                }
+            }
+        }
+        .icon-dropdown {
+            padding-left: 5px;
+        }
+    }
+    @media (max-width: 768px) {
+        position: sticky;
+        top: 0;
+    }
+}
